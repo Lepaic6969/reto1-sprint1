@@ -1,0 +1,174 @@
+/* Importamos Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+ 
+    
+}
+.contenedor-titulo{
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgba(251,251,251,0.3);
+    color:white;
+    font-size: 40px;
+    position:relative;
+    top:60px;
+    width: 100%;
+}
+#fondo{
+    background-image: url(../img/gatito2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 90vh;
+    
+}
+#titulo{
+    color:white;
+    display: flex;
+    width: 100%;
+}
+#titulo h1{
+    float:left;
+}
+.contenedor-nav{
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 22px;
+    
+}
+#cabecera{
+    color:white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149,164,164,0.5);
+    padding: 5px;
+}
+#cabecera h1{
+    float:left;
+}
+.menu{
+    float:right;
+    margin-top:10px;
+    display: block;
+}
+.menu li{
+    list-style: none;
+    float:left;
+    margin:5px;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+.menu li:hover ul{
+    display: block;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background-color: rgba(251,251,251,0.5);
+}
+.contenedor-principal{
+    font-weight: 600;
+    font-size: 20px;
+}
+.contenedor-principal a{
+    color:white;
+    text-decoration: none;
+    width: 10%;
+    padding: 5px 10px;
+}
+#principal{
+    color:white;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    top:55%;
+
+}
+main{
+    margin-top: 20px;
+}
+main table{
+   margin-left: 50px;
+  float:left
+}
+main img{
+    width: 400px;
+    height: 200px;
+}
+article{
+
+    float:left;
+    margin-left: 60px;
+    background-color: rgb(46,39,35);
+    width: 400px;
+    height: 410px;
+    border-radius: 5px;
+
+}
+article p{
+    /* color:black; */
+    font-weight: bold;
+    font-family:'Shadows Into Light Two' ;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-left: 30px;
+}
+article img{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+.contenido-article{
+    margin-top: 40px;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* Video */
+.contenedor-video{
+    height: 400px;
+    display: block;
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 50px;
+    border:1px solid black;
+    background-color: rgb(30,11,0);
+    
+}
+video{
+    display: block;
+    margin: 15px auto;
+    height:90%;
+    
+}
+footer{
+    margin-top: 20px;
+    height: 70px;
+    background-color: rgb(46,39,35);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    /* font-family: 'Shadows Into Light Two', cursive; */
+    text-align: center;
+    line-height: 70px;
+}
